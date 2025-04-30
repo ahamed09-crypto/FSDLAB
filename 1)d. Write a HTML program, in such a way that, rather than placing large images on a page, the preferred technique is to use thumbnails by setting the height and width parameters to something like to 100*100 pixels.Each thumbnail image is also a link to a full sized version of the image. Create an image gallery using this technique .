@@ -1,0 +1,32 @@
+1)d. Write a HTML program, in such a way that, rather than placing large images on a page, the
+preferred technique is to use thumbnails by setting the height and width parameters to something
+like to 100*100 pixels.Each thumbnail image is also a link to a full sized version of the image. Create
+an image gallery using this technique .
+<!DOCTYPE html>
+<head>
+<title>Image Gallery</title>
+<style>
+body {
+display: flex;
+gap: 10px;
+justify-content: center;
+padding: 20px;
+}
+img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+border: 2px solid #ccc;
+border-radius: 5px;
+}
+img:hover {
+border-color: #555;
+}
+</style>
+</head>
+<body>
+<a href="img1.jpg"><img src="images/thumb1.jpg" alt="Image 1"></a>
+<a href="img2.jpg"><img src="images/thumb2.jpg" alt="Image 2"></a>
+</body>
+</html>
+OUTPUT:
