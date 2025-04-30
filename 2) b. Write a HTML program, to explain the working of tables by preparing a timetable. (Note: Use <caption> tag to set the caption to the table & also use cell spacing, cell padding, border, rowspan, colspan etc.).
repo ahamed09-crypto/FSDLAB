@@ -1,0 +1,94 @@
+2) b. Write a HTML program, to explain the working of tables by preparing a timetable. (Note: Use
+<caption> tag to set the caption to the table & also use cell spacing, cell padding, border, rowspan,
+colspan etc.).
+<!DOCTYPE html>
+<head>
+<title>Timetable Example</title>
+<style>
+table {
+border-collapse: collapse;
+width: 80%;
+margin: 20px auto;
+font-family: Arial, sans-serif;
+border: 2px solid #444;
+}
+th,
+td {
+border: 1px solid #333;
+padding: 15px;
+text-align: center;
+}
+th {
+background-color: #f0f0f0;
+}
+caption {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Weekly Timetable</h1>
+<table cellspacing="5" cellpadding="5">
+HTML (LAB)
+<caption>Class Schedule</caption>
+<!-- Table Header -->
+<tr>
+<th>Day</th>
+<th>9:00 AM - 10:00 AM</th>
+<th>10:00 AM - 11:00 AM</th>
+<th>11:00 AM - 12:00 PM</th>
+<th>Break</th>
+<th>1:00 PM - 2:00 PM</th>
+<th>2:00 PM - 3:00 PM</th>
+</tr>
+<!-- Monday -->
+<tr>
+<td>Monday</td>
+<td>Math</td>
+<td>Science</td>
+<td rowspan="2">Lab</td>
+<td rowspan="5">Lunch</td>
+<td>History</td>
+<td>Geography</td>
+</tr>
+<!-- Tuesday -->
+<tr>
+<td>Tuesday</td>
+<td>English</td>
+<td>Physics</td>
+<td>Chemistry</td>
+<td>Sports</td>
+</tr>
+
+<!-- Wednesday -->
+<tr>
+<td>Wednesday</td>
+<td>Biology</td>
+<td>Math</td>
+<td>Computer Science</td>
+<td>Art</td>
+<td>Music</td>
+</tr>
+<!-- Thursday -->
+<tr>
+<td>Thursday</td>
+<td>Chemistry</td>
+<td>English</td>
+<td>Physics</td>
+<td>History</td>
+<td>Drama</td>
+</tr>
+<!-- Friday -->
+<tr>
+<td>Friday</td>
+<td>Math</td>
+<td>Biology</td>
+<td>Geography</td>
+<td>Computer Science</td>
+<td>Sports</td>
+</tr>
+</table>
+</body>
+</html>
+OUTPUT:
