@@ -1,0 +1,22 @@
+1)b. Write a HTML program, to explain the working of hyperlinks using <a> tag and href, target
+Attributes.
+<!DOCTYPE html>
+<head>
+<title>Hyperlink Example</title>
+</head>
+<body>
+<h1>Hyperlink Demo</h1>
+<!-- Link that opens in a new tab -->
+<p>
+Visit <a href="https://www.google.com" target="_blank">Google</a>.
+</p>
+<!-- Link to a section on the same page -->
+<p>
+Go to the <a href="https://www.github.com">Next Section</a>.
+</p>
+<!-- Section within the same page -->
+<h2 id="section1">Next Section</h2>
+<p>You've reached the next section!</p>
+</body>
+</html>
+OUTPUT:
