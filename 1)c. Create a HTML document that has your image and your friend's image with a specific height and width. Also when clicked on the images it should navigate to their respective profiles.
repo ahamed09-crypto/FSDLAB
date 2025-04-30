@@ -1,0 +1,28 @@
+1)c. Create a HTML document that has your image and your friend's image with a specific height and
+width. Also when clicked on the images it should navigate to their respective profiles.
+<!DOCTYPE html>
+<head>
+<title>Profile Links</title>
+<style>
+body {
+text-align: center;
+margin-top: 50px;
+}
+a img {
+width: 200px;
+height: 200px;
+margin: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Profile Links</h1>
+<a href="https://google.com" target="_blank">
+<img src="img1.jpg" alt="Your Profile">
+</a>
+<a href="https://youtube.com" target="_blank">
+<img src="img2.jpg" alt="Friend's Profile">
+</a>
+</body>
+</html>
+OUTPUT:
